@@ -7,12 +7,23 @@
     <title>Document</title>
 </head>
 <style>
-    p{
+    /*p:first-child{
+        color: pink;
+    }
+    p:last-child{
+        color: brown;
+    }*/
+    p:nth-child(2n){
         color: red;
+    }
+    p:nth-child(2n+1){
+        color: blue;
     }
 </style>
 <body>
-    <p>Hola mundo feliz!</p>
-    <p>Hola mundo!</p>
+    <p>Conejo</p>
+    <p>Perro</p>
+    <p>Vaca</p>
+    <p>Sapo</p>
 </body>
 </html>
